@@ -270,3 +270,77 @@
 // 	return console.log(arr[i], arr[i + 1]);
 // }
 // arrList(arr, arrPlus);
+
+// 18 - misol
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 3, 4];
+
+// function arrList(arr) {
+// 	for (let i = 0; i < arr.length; i++) {
+// 		for (let j = i + 1; j < arr.length; j++) {
+// 			if (arr[i] === arr[j]) {
+// 				console.log(arr[j]);
+// 			}
+// 		}
+// 	}
+// 	return;
+// }
+// arrList(arr);
+
+// 19 -misol
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 3, 4];
+
+// function countDuplicates(arr) {
+//     let frequency = {};
+//     let count = 0;
+
+//     for (let i = 0; i < arr.length; i++) {
+//         let currentElement = arr[i];
+
+//         if (frequency[currentElement]) {
+//             count++;
+//         } else {
+//             frequency[currentElement] = 1;
+//         }
+//     }
+
+//     return count;
+// }
+
+// let result = countDuplicates(arr);
+// console.log("Количество повторяющихся элементов: ", result);
+
+// 20 - misol
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// let arr2 = [];
+
+// function arrList(arr) {
+
+// 	for (let i = 0; i < arr.length; i++) {
+// 		if (arr.indexOf(arr[i]) % 2 == 0) {
+// 			arr2.push(arr[i]);
+// 		}
+// 	}
+// 	return console.log(arr2);
+// }
+
+// arrList(arr)
+
+// 21- misol
+
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// function indexChange(arr) {
+
+// 	for (let i = 0; i < arr.length / 2; i++) {
+// 		arr.push(arr[i])
+// 		arr.shift();
+// 	}
+// 	return
+// }
+// indexChange(arr)
+// console.log(arr)
+
+// 22- misol
